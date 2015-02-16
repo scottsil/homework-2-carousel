@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AC2CDABB1A902B9100D5EAE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CDABA1A902B9100D5EAE3 /* AppDelegate.swift */; };
-		AC2CDABD1A902B9100D5EAE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CDABC1A902B9100D5EAE3 /* ViewController.swift */; };
 		AC2CDAC01A902B9100D5EAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2CDABE1A902B9100D5EAE3 /* Main.storyboard */; };
 		AC2CDAC21A902B9100D5EAE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2CDAC11A902B9100D5EAE3 /* Images.xcassets */; };
 		AC2CDAC51A902B9100D5EAE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2CDAC31A902B9100D5EAE3 /* LaunchScreen.xib */; };
 		AC2CDAD11A902B9100D5EAE3 /* homework_2_carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CDAD01A902B9100D5EAE3 /* homework_2_carouselTests.swift */; };
+		AC2CDADB1A902F3500D5EAE3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CDADA1A902F3500D5EAE3 /* Common.swift */; };
+		AC2CDADD1A9033D400D5EAE3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CDADC1A9033D400D5EAE3 /* IntroViewController.swift */; };
+		AC2CDADF1A91405B00D5EAE3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CDADE1A91405B00D5EAE3 /* SignInViewController.swift */; };
+		AC2D69E51A91697C0009D7F7 /* WelcomeTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2D69E41A91697C0009D7F7 /* WelcomeTutorialViewController.swift */; };
+		ACE7B5E11A91838F0094541A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7B5E01A91838F0094541A /* FeedViewController.swift */; };
+		ACE7B5E31A9184EA0094541A /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7B5E21A9184EA0094541A /* ConversationsViewController.swift */; };
+		ACE7B5E51A9185C00094541A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7B5E41A9185C00094541A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,19 @@
 		AC2CDAB51A902B9100D5EAE3 /* homework-2-carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework-2-carousel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2CDAB91A902B9100D5EAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2CDABA1A902B9100D5EAE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC2CDABC1A902B9100D5EAE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC2CDABF1A902B9100D5EAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC2CDAC11A902B9100D5EAE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC2CDAC41A902B9100D5EAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AC2CDACA1A902B9100D5EAE3 /* homework-2-carouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "homework-2-carouselTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2CDACF1A902B9100D5EAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2CDAD01A902B9100D5EAE3 /* homework_2_carouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_2_carouselTests.swift; sourceTree = "<group>"; };
+		AC2CDADA1A902F3500D5EAE3 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AC2CDADC1A9033D400D5EAE3 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		AC2CDADE1A91405B00D5EAE3 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		AC2D69E41A91697C0009D7F7 /* WelcomeTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeTutorialViewController.swift; sourceTree = "<group>"; };
+		ACE7B5E01A91838F0094541A /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		ACE7B5E21A9184EA0094541A /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		ACE7B5E41A9185C00094541A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +89,18 @@
 		AC2CDAB71A902B9100D5EAE3 /* homework-2-carousel */ = {
 			isa = PBXGroup;
 			children = (
+				AC2CDADA1A902F3500D5EAE3 /* Common.swift */,
 				AC2CDABA1A902B9100D5EAE3 /* AppDelegate.swift */,
-				AC2CDABC1A902B9100D5EAE3 /* ViewController.swift */,
 				AC2CDABE1A902B9100D5EAE3 /* Main.storyboard */,
+				ACE7B5E41A9185C00094541A /* SettingsViewController.swift */,
+				ACE7B5E21A9184EA0094541A /* ConversationsViewController.swift */,
+				ACE7B5E01A91838F0094541A /* FeedViewController.swift */,
+				AC2D69E41A91697C0009D7F7 /* WelcomeTutorialViewController.swift */,
+				AC2CDADE1A91405B00D5EAE3 /* SignInViewController.swift */,
 				AC2CDAC11A902B9100D5EAE3 /* Images.xcassets */,
 				AC2CDAC31A902B9100D5EAE3 /* LaunchScreen.xib */,
 				AC2CDAB81A902B9100D5EAE3 /* Supporting Files */,
+				AC2CDADC1A9033D400D5EAE3 /* IntroViewController.swift */,
 			);
 			path = "homework-2-carousel";
 			sourceTree = "<group>";
@@ -212,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC2CDABD1A902B9100D5EAE3 /* ViewController.swift in Sources */,
+				AC2CDADF1A91405B00D5EAE3 /* SignInViewController.swift in Sources */,
+				AC2CDADD1A9033D400D5EAE3 /* IntroViewController.swift in Sources */,
+				ACE7B5E31A9184EA0094541A /* ConversationsViewController.swift in Sources */,
+				AC2CDADB1A902F3500D5EAE3 /* Common.swift in Sources */,
 				AC2CDABB1A902B9100D5EAE3 /* AppDelegate.swift in Sources */,
+				ACE7B5E11A91838F0094541A /* FeedViewController.swift in Sources */,
+				AC2D69E51A91697C0009D7F7 /* WelcomeTutorialViewController.swift in Sources */,
+				ACE7B5E51A9185C00094541A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +429,7 @@
 				AC2CDAD61A902B9100D5EAE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC2CDAD71A902B9100D5EAE3 /* Build configuration list for PBXNativeTarget "homework-2-carouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				AC2CDAD91A902B9100D5EAE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
